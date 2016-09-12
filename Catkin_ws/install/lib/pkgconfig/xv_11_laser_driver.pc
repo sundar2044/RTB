@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/install
+
+Name: xv_11_laser_driver
+Description: Description of xv_11_laser_driver
+Version: 0.2.2
+Cflags: -I/home/jeff/RTB/Catkin_ws/install/include
+Libs: -L/home/jeff/RTB/Catkin_ws/install/lib 
+Requires: 

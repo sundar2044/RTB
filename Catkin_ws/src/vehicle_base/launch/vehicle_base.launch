@@ -1,0 +1,13 @@
+<launch>
+
+  <param name="vehicleaddress" value="192.168.127.10" />
+  <param name="vehicleport" value="2002" />
+  <param name="looprate" value="5" />
+  <param name="gearboxratio" value="30" />
+  <param name="circumferenceoftyre" value="1.8" />
+  
+  <machine name="local_alt" address="localhost" default="true" />  
+  
+  <node name ="vehicle_base0" pkg="vehicle_base" type="Vehicle_Base_Communication" output="screen" />
+
+</launch>
