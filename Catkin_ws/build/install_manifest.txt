@@ -260,6 +260,7 @@
 /home/jeff/RTB/Catkin_ws/install/lib/hector_mapping/hector_mapping
 /home/jeff/RTB/Catkin_ws/install/share/hector_mapping/launch//mapping_default.launch_orig
 /home/jeff/RTB/Catkin_ws/install/share/hector_mapping/launch//mapping_default.launch
+/home/jeff/RTB/Catkin_ws/install/share/hector_mapping/launch//mapping_default.launch~
 /home/jeff/RTB/Catkin_ws/install/share/vehicle_base/msg/VehicleBaseCmd.msg
 /home/jeff/RTB/Catkin_ws/install/share/vehicle_base/msg/VehicleBaseRes.msg
 /home/jeff/RTB/Catkin_ws/install/share/vehicle_base/cmake/vehicle_base-msg-paths.cmake
@@ -298,6 +299,10 @@
 /home/jeff/RTB/Catkin_ws/install/share/hector_exploration_node/cmake/hector_exploration_nodeConfig.cmake
 /home/jeff/RTB/Catkin_ws/install/share/hector_exploration_node/cmake/hector_exploration_nodeConfig-version.cmake
 /home/jeff/RTB/Catkin_ws/install/share/hector_exploration_node/package.xml
+/home/jeff/RTB/Catkin_ws/install/lib/pkgconfig/srobot_2dnav.pc
+/home/jeff/RTB/Catkin_ws/install/share/srobot_2dnav/cmake/srobot_2dnavConfig.cmake
+/home/jeff/RTB/Catkin_ws/install/share/srobot_2dnav/cmake/srobot_2dnavConfig-version.cmake
+/home/jeff/RTB/Catkin_ws/install/share/srobot_2dnav/package.xml
 /home/jeff/RTB/Catkin_ws/install/lib/pkgconfig/xv_11_laser_driver.pc
 /home/jeff/RTB/Catkin_ws/install/share/xv_11_laser_driver/cmake/xv_11_laser_driverConfig.cmake
 /home/jeff/RTB/Catkin_ws/install/share/xv_11_laser_driver/cmake/xv_11_laser_driverConfig-version.cmake

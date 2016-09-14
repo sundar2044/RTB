@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/devel
+
+Name: fake_localization
+Description: Description of fake_localization
+Version: 1.12.13
+Cflags: 
+Libs: -L/home/jeff/RTB/Catkin_ws/devel/lib 
+Requires: roscpp rospy

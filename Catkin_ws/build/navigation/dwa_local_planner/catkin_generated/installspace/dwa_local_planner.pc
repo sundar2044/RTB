@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/install
+
+Name: dwa_local_planner
+Description: Description of dwa_local_planner
+Version: 1.12.13
+Cflags: -I/home/jeff/RTB/Catkin_ws/install/include
+Libs: -L/home/jeff/RTB/Catkin_ws/install/lib -ldwa_local_planner
+Requires: dynamic_reconfigure pluginlib roscpp

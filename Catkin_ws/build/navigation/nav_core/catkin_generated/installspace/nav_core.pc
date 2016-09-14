@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/install
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.12.13
+Cflags: -I/home/jeff/RTB/Catkin_ws/install/include
+Libs: -L/home/jeff/RTB/Catkin_ws/install/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

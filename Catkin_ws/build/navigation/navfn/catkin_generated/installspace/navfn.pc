@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/install
+
+Name: navfn
+Description: Description of navfn
+Version: 1.12.13
+Cflags: -I/home/jeff/RTB/Catkin_ws/install/include
+Libs: -L/home/jeff/RTB/Catkin_ws/install/lib -lnavfn
+Requires: nav_core roscpp pluginlib

@@ -1,0 +1,16 @@
+<launch>
+  <!--we use the rplidar as a laser scanner /-->
+  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+
+  <include file="$(find slam_launch)/launch/hector_mapping.launch"/>
+ 
+  <include file="$(find slam_launch)/launch/geotiff_mapper.launch">
+    <arg name="trajectory_source_frame_name" value="scanmatcher_frame"/>
+  </include>
+ 
+  <!-- cmd_vel mux for prioritizing cmd_vel topics /-->
+  <!--node name="mux" pkg="topic_tools" type="mux" args="cmd_vel_mux teleop_cmd_vel cmd_vel"/-->
+
+  <!-- converting the cmd_vel topic Twist message into the VehicleBaseCmd to control motor/-->
+  <node name="vehicle_command" pkg="vehicle_base" type="vehicle_command" output="screen"/>
+</launch>

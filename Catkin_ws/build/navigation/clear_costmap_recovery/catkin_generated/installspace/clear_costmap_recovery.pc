@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/install
+
+Name: clear_costmap_recovery
+Description: Description of clear_costmap_recovery
+Version: 1.12.13
+Cflags: -I/home/jeff/RTB/Catkin_ws/install/include
+Libs: -L/home/jeff/RTB/Catkin_ws/install/lib -lclear_costmap_recovery
+Requires: costmap_2d nav_core pluginlib roscpp tf

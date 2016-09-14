@@ -1,0 +1,8 @@
+prefix=/home/jeff/RTB/Catkin_ws/install
+
+Name: srobot_2dnav
+Description: Description of srobot_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jeff/RTB/Catkin_ws/install/lib 
+Requires: 
